@@ -1,0 +1,117 @@
+[2024-10-23T02:45:33.518+0000] {processor.py:186} INFO - Started process (PID=2012) to work on /opt/airflow/dags/direct.py
+[2024-10-23T02:45:33.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct.py for tasks to queue
+[2024-10-23T02:45:33.521+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:45:33.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct.py
+[2024-10-23T02:45:33.539+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:45:33.537+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct.py", line 9
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:45:33.540+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct.py
+[2024-10-23T02:45:33.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct.py took 0.053 seconds
+[2024-10-23T02:46:03.716+0000] {processor.py:186} INFO - Started process (PID=2076) to work on /opt/airflow/dags/direct.py
+[2024-10-23T02:46:03.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct.py for tasks to queue
+[2024-10-23T02:46:03.721+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:03.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct.py
+[2024-10-23T02:46:03.747+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:03.745+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct.py", line 9
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:46:03.748+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct.py
+[2024-10-23T02:46:03.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct.py took 0.082 seconds
+[2024-10-23T02:46:25.781+0000] {processor.py:186} INFO - Started process (PID=2115) to work on /opt/airflow/dags/direct.py
+[2024-10-23T02:46:25.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct.py for tasks to queue
+[2024-10-23T02:46:25.785+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:25.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct.py
+[2024-10-23T02:46:25.828+0000] {processor.py:925} INFO - DAG(s) 'file_move_dag' retrieved from /opt/airflow/dags/direct.py
+[2024-10-23T02:46:25.968+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:25.963+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:file_move_dag
+[2024-10-23T02:46:25.991+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:25.990+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:file_move_dag
+[2024-10-23T02:46:26.007+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:26.006+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:file_move_dag
+[2024-10-23T02:46:26.070+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:26.070+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:file_move_dag
+[2024-10-23T02:46:26.090+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:26.090+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:file_move_dag
+[2024-10-23T02:46:26.100+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:26.100+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:file_move_dag
+[2024-10-23T02:46:26.109+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:26.109+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:file_move_dag
+[2024-10-23T02:46:26.110+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:26.110+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:46:26.128+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:26.127+0000] {dag.py:3262} INFO - Creating ORM DAG for file_move_dag
+[2024-10-23T02:46:26.145+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:26.144+0000] {dag.py:4180} INFO - Setting next_dagrun for file_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:46:26.175+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct.py took 0.425 seconds
+[2024-10-23T02:46:49.631+0000] {processor.py:186} INFO - Started process (PID=2165) to work on /opt/airflow/dags/direct.py
+[2024-10-23T02:46:49.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct.py for tasks to queue
+[2024-10-23T02:46:49.634+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:49.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct.py
+[2024-10-23T02:46:49.669+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:49.668+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct.py", line 8
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:46:49.671+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct.py
+[2024-10-23T02:46:49.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct.py took 0.111 seconds
+[2024-10-23T02:46:52.899+0000] {processor.py:186} INFO - Started process (PID=2167) to work on /opt/airflow/dags/direct.py
+[2024-10-23T02:46:52.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct.py for tasks to queue
+[2024-10-23T02:46:52.912+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:52.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct.py
+[2024-10-23T02:46:52.975+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:46:52.972+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct.py", line 8
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:46:52.978+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct.py
+[2024-10-23T02:46:53.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct.py took 0.164 seconds
+[2024-10-23T02:47:23.182+0000] {processor.py:186} INFO - Started process (PID=2231) to work on /opt/airflow/dags/direct.py
+[2024-10-23T02:47:23.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct.py for tasks to queue
+[2024-10-23T02:47:23.186+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:47:23.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct.py
+[2024-10-23T02:47:23.207+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:47:23.206+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct.py", line 8
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:47:23.208+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct.py
+[2024-10-23T02:47:23.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct.py took 0.068 seconds
+[2024-10-23T02:47:53.390+0000] {processor.py:186} INFO - Started process (PID=2295) to work on /opt/airflow/dags/direct.py
+[2024-10-23T02:47:53.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct.py for tasks to queue
+[2024-10-23T02:47:53.393+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:47:53.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct.py
+[2024-10-23T02:47:53.411+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:47:53.409+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct.py", line 8
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:47:53.411+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct.py
+[2024-10-23T02:47:53.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct.py took 0.057 seconds

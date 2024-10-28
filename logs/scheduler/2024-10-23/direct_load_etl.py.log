@@ -1,0 +1,270 @@
+[2024-10-23T02:30:33.017+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:30:33.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:30:33.033+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:30:33.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:30:33.127+0000] {processor.py:925} INFO - DAG(s) 'direct_load_etl' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:30:33.217+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:30:33.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:30:33.272+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:30:33.272+0000] {dag.py:4180} INFO - Setting next_dagrun for direct_load_etl to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-23T02:30:33.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.304 seconds
+[2024-10-23T02:30:49.660+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:30:49.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:30:49.667+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:30:49.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:30:49.785+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:30:49.784+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/direct_load_etl.py assumed to contain no DAGs. Skipping.
+[2024-10-23T02:30:49.785+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:30:49.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.150 seconds
+[2024-10-23T02:31:20.615+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:31:20.617+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:31:20.620+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:31:20.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:31:20.637+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:31:20.637+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/direct_load_etl.py assumed to contain no DAGs. Skipping.
+[2024-10-23T02:31:20.638+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:31:20.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.049 seconds
+[2024-10-23T02:31:50.912+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:31:50.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:31:50.918+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:31:50.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:31:50.927+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:31:50.927+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/direct_load_etl.py assumed to contain no DAGs. Skipping.
+[2024-10-23T02:31:50.928+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:31:50.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.046 seconds
+[2024-10-23T02:32:21.409+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:21.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:32:21.414+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:21.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:21.422+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:21.422+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/direct_load_etl.py assumed to contain no DAGs. Skipping.
+[2024-10-23T02:32:21.423+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:21.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.038 seconds
+[2024-10-23T02:32:52.136+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:52.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:32:52.139+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:52.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:52.150+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:52.150+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/direct_load_etl.py assumed to contain no DAGs. Skipping.
+[2024-10-23T02:32:52.150+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:52.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.036 seconds
+[2024-10-23T02:32:54.186+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:54.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:32:54.189+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:54.245+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:32:54.377+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.376+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:dataframe_move_dag
+[2024-10-23T02:32:54.390+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.389+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:dataframe_move_dag
+[2024-10-23T02:32:54.398+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.398+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:dataframe_move_dag
+[2024-10-23T02:32:54.409+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.408+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dataframe_move_dag
+[2024-10-23T02:32:54.420+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.420+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dataframe_move_dag
+[2024-10-23T02:32:54.431+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.430+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dataframe_move_dag
+[2024-10-23T02:32:54.442+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.441+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dataframe_move_dag
+[2024-10-23T02:32:54.443+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:32:54.460+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.460+0000] {dag.py:3262} INFO - Creating ORM DAG for dataframe_move_dag
+[2024-10-23T02:32:54.473+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:32:54.473+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:32:54.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.319 seconds
+[2024-10-23T02:33:25.087+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:33:25.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:33:25.094+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:33:25.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:33:25.136+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:33:25.168+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:33:25.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:33:25.206+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:33:25.206+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:33:25.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.155 seconds
+[2024-10-23T02:33:55.329+0000] {processor.py:186} INFO - Started process (PID=553) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:33:55.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:33:55.333+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:33:55.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:33:55.378+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:33:55.398+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:33:55.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:33:55.439+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:33:55.439+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:33:55.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.155 seconds
+[2024-10-23T02:34:26.416+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:34:26.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:34:26.419+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:34:26.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:34:26.458+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:34:26.662+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:34:26.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:34:26.723+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:34:26.722+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:34:27.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.737 seconds
+[2024-10-23T02:34:57.980+0000] {processor.py:186} INFO - Started process (PID=681) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:34:57.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:34:57.983+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:34:57.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:34:58.003+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:34:58.024+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:34:58.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:34:58.054+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:34:58.052+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:34:58.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.100 seconds
+[2024-10-23T02:35:29.043+0000] {processor.py:186} INFO - Started process (PID=751) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:35:29.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:35:29.047+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:35:29.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:35:29.075+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:35:29.106+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:35:29.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:35:29.139+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:35:29.139+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:35:29.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.156 seconds
+[2024-10-23T02:35:59.831+0000] {processor.py:186} INFO - Started process (PID=816) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:35:59.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:35:59.834+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:35:59.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:35:59.863+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:35:59.880+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:35:59.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:35:59.922+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:35:59.922+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:35:59.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.140 seconds
+[2024-10-23T02:36:30.184+0000] {processor.py:186} INFO - Started process (PID=881) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:36:30.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:36:30.189+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:36:30.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:36:30.225+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:36:30.382+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:36:30.381+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:36:30.409+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:36:30.409+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:36:30.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.258 seconds
+[2024-10-23T02:37:00.537+0000] {processor.py:186} INFO - Started process (PID=945) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:37:00.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:37:00.543+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:37:00.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:37:00.597+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:37:00.633+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:37:00.632+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:37:00.670+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:37:00.669+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:37:00.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.184 seconds
+[2024-10-23T02:37:30.915+0000] {processor.py:186} INFO - Started process (PID=1009) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:37:30.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:37:30.921+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:37:30.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:37:30.964+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:37:30.987+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:37:30.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:37:31.044+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:37:31.043+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-23T02:37:31.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.188 seconds
+[2024-10-23T02:38:02.025+0000] {processor.py:186} INFO - Started process (PID=1077) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:38:02.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:38:02.029+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:38:02.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:38:02.077+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:38:02.214+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:38:02.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:38:02.241+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:38:02.240+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:38:02.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.259 seconds
+[2024-10-23T02:38:32.974+0000] {processor.py:186} INFO - Started process (PID=1141) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:38:32.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:38:32.979+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:38:32.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:38:33.022+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:38:33.048+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:38:33.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:38:33.075+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:38:33.075+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:38:33.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.147 seconds
+[2024-10-23T02:39:03.835+0000] {processor.py:186} INFO - Started process (PID=1205) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:39:03.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:39:03.839+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:39:03.838+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:39:03.873+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:39:03.893+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:39:03.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:39:03.935+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:39:03.934+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:39:03.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.142 seconds
+[2024-10-23T02:39:34.892+0000] {processor.py:186} INFO - Started process (PID=1268) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:39:34.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:39:34.896+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:39:34.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:39:34.921+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:39:35.046+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:39:35.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:39:35.071+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:39:35.070+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:39:35.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.220 seconds
+[2024-10-23T02:40:05.631+0000] {processor.py:186} INFO - Started process (PID=1332) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:40:05.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:40:05.634+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:40:05.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:40:05.673+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:40:05.702+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:40:05.702+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:40:05.748+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:40:05.748+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:40:05.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.162 seconds
+[2024-10-23T02:40:36.172+0000] {processor.py:186} INFO - Started process (PID=1396) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:40:36.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:40:36.196+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:40:36.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:40:36.229+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:40:36.241+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:40:36.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:40:36.267+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:40:36.267+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:40:36.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.208 seconds
+[2024-10-23T02:41:06.502+0000] {processor.py:186} INFO - Started process (PID=1460) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:41:06.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:41:06.505+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:41:06.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:41:06.530+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:41:06.656+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:41:06.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:41:06.687+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:41:06.687+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:41:06.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.223 seconds
+[2024-10-23T02:41:37.562+0000] {processor.py:186} INFO - Started process (PID=1524) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:41:37.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:41:37.567+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:41:37.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:41:37.603+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:41:37.644+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:41:37.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:41:37.688+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:41:37.687+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:41:37.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.183 seconds
+[2024-10-23T02:42:07.873+0000] {processor.py:186} INFO - Started process (PID=1588) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:07.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:42:07.876+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:42:07.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:07.897+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:07.914+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:42:07.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:42:07.946+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:42:07.945+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:42:07.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.102 seconds
+[2024-10-23T02:42:38.359+0000] {processor.py:186} INFO - Started process (PID=1651) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:38.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:42:38.364+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:42:38.363+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:38.405+0000] {processor.py:925} INFO - DAG(s) 'dataframe_move_dag' retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:38.529+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:42:38.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T02:42:38.573+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:42:38.573+0000] {dag.py:4180} INFO - Setting next_dagrun for dataframe_move_dag to 2024-10-23 00:00:00+00:00, run_after=2024-10-24 00:00:00+00:00
+[2024-10-23T02:42:38.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.264 seconds
+[2024-10-23T02:42:59.339+0000] {processor.py:186} INFO - Started process (PID=1685) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:59.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:42:59.348+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:42:59.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:59.482+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:42:59.480+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct_load_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct_load_etl.py", line 9
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:42:59.489+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:42:59.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.214 seconds
+[2024-10-23T02:43:26.655+0000] {processor.py:186} INFO - Started process (PID=1741) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:43:26.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:43:26.661+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:43:26.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:43:26.707+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:43:26.705+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct_load_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct_load_etl.py", line 9
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:43:26.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:43:26.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.124 seconds
+[2024-10-23T02:43:57.219+0000] {processor.py:186} INFO - Started process (PID=1804) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:43:57.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:43:57.224+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:43:57.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:43:57.249+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:43:57.247+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct_load_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct_load_etl.py", line 9
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:43:57.250+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:43:57.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.074 seconds
+[2024-10-23T02:44:27.800+0000] {processor.py:186} INFO - Started process (PID=1868) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:44:27.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:44:27.803+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:44:27.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:44:27.823+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:44:27.822+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct_load_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct_load_etl.py", line 9
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:44:27.824+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:44:27.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.062 seconds
+[2024-10-23T02:44:57.953+0000] {processor.py:186} INFO - Started process (PID=1929) to work on /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:44:57.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/direct_load_etl.py for tasks to queue
+[2024-10-23T02:44:57.967+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:44:57.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:44:57.996+0000] {logging_mixin.py:190} INFO - [2024-10-23T02:44:57.994+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/direct_load_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/direct_load_etl.py", line 9
+    source_dir = 'C:\Users\ganga\Projects\DE\airflow-docker\source'  # Change to your source directory
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-23T02:44:57.997+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/direct_load_etl.py
+[2024-10-23T02:44:58.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/direct_load_etl.py took 0.095 seconds

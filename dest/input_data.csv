@@ -1,0 +1,8 @@
+id,important_column,description,value
+1,Data A,Sample description 1,100
+2,,Sample description 2,200
+3,Data C,Sample description 3,NaN
+4,Data D,Sample description 4,150
+5,,Sample description 5,300
+6,Data F,Sample description 6,400
+7,Data G,Sample description 7,NaN
